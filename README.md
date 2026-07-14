@@ -55,7 +55,7 @@ The front-end is developed using **Python's Tkinter library** and the **python-o
 | **🩸 Blood Bags** | Adding newly collected units | Generates barcodes, links to valid donor IDs, and records `Collection_Date`. |
 | **🧪 Lab Testing** | Recording infection profiles | Calls `BLOOD_BANK_PKG.Process_Lab_Test` to update status instantly. |
 
-
+![THE_UI Diagram](screenshot/THE_UI.png)
 
 
 ---
