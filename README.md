@@ -107,5 +107,5 @@ Developed for academic assessment in Database Management Systems (PL/SQL & Datab
     Course: SQL & PL/SQL Programming Phase VI
 
 
-[ERD Diagram](assets/ERD.png)
+![ERD Diagram](assets/ERD.png)
 
