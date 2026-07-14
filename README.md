@@ -53,6 +53,10 @@ The front-end is developed using **Python's Tkinter library** and the **python-o
 | **🩸 Blood Bags** | Adding newly collected units | Generates barcodes, links to valid donor IDs, and records `Collection_Date`. |
 | **🧪 Lab Testing** | Recording infection profiles | Calls `BLOOD_BANK_PKG.Process_Lab_Test` to update status instantly. |
 
+
+
+
+![ERD Diagram](desien/assets/ERD.png)
 ---
 
 ## 📂 Project Structure
@@ -107,4 +111,3 @@ Developed for academic assessment in Database Management Systems (PL/SQL & Datab
     Course: SQL & PL/SQL Programming Phase VI
 
 
-![ERD Diagram](desien/assets/ERD.png)
