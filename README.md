@@ -19,10 +19,13 @@ A comprehensive, database-driven **Blood Bank Management System** built with **P
 
 ### 1. Entity-Relationship Diagram (ERD)
 The database schema consists of several structured tables (Donors, Blood Units, Lab Tests, Dispatches, Hospitals, etc.) normalized to ensure minimal redundancy and strict referential integrity.
-*(Refer to `image_7e39fe.png` or your uploaded ERD diagram in the repository)*
+
+![ERD Diagram](desien/assets/ERD.png)
 
 ### 2. Business Process Swimlane Diagram
 A comprehensive Swimlane diagram maps out the business logic flow from the donor registration desk, lab testing division, all the way to hospital distribution.
+
+![ERD Diagram](desien/assets/swimlane.png)
 
 ---
 
@@ -56,7 +59,6 @@ The front-end is developed using **Python's Tkinter library** and the **python-o
 
 
 
-![ERD Diagram](desien/assets/ERD.png)
 ---
 
 ## 📂 Project Structure
