@@ -32,15 +32,15 @@ A comprehensive Swimlane diagram maps out the business logic flow from the donor
 
 The backend architecture is highly optimized using Oracle PL/SQL concepts:
 
-### 📦 1. Blood Bank Package (`BLOOD_BANK_PKG`)
+###  1. Blood Bank Package (`BLOOD_BANK_PKG`)
 Encapsulates key business actions into a reusable modular package:
 - **`Check_Donor_Eligibility` (Function)**: Automatically computes whether a donor is medical-eligible to donate (at least 56 days required since the last donation).
 - **`Process_Lab_Test` (Procedure)**: Takes specific lab results and dynamically updates the blood unit status to `Available` or marks it as `Discarded` (if unsafe results are found).
 
-### 🔍 2. Explicit Cursors (`Explicit_Cursor.sql`)
+###  2. Explicit Cursors (`Explicit_Cursor.sql`)
 A dedicated reporting cursor that loops through the inventory, filters out infected or unsafe blood units, and displays detailed records for disposal.
 
-### ⚡ 3. Database Triggers
+###  3. Database Triggers
 Active automated triggers to enforce strict validation rules before insert/update operations occur on critical transactional tables.
 
 ---
@@ -95,20 +95,18 @@ Frontend Run
     Update database connection credentials inside the app.py script:
     Python
 
-    DB_USER = "Your_Oracle_Username"
-    DB_PASSWORD = "Your_Password"
+    DB_USER = U310482025_SALAH_SBB_DB
+    DB_PASSWORD = Oracle1234
 
     Launch the application:
     Bash
 
     python app.py
 
-👥 Contributors & Academic Purpose
+## 👥 Contributors & Academic Purpose
+Developed as a **Final Project** for academic assessment in **Database Programming**.
 
-Developed for academic assessment in Database Management Systems (PL/SQL & Database Programming).
-
-    Developer: Salah
-
-    Course: SQL & PL/SQL Programming Phase VI
-
+- **Developer:**  Mohammed Salah
+- **Course:** Database Programming 
+- **Institution:** University  Project
 
