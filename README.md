@@ -25,8 +25,7 @@ The database schema consists of several structured tables (Donors, Blood Units, 
 ### 2. Business Process Swimlane Diagram
 A comprehensive Swimlane diagram maps out the business logic flow from the donor registration desk, lab testing division, all the way to hospital distribution.
 
-![ERD Diagram](desien/assets/swimlane.png)
-
+![Swimlane Diagram](desien/assets/swimlane.jpg)
 ---
 
 ## 🛠️ Database Schema & PL/SQL Components
