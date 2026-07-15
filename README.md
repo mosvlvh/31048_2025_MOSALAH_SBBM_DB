@@ -16,6 +16,7 @@ A comprehensive, database-driven **Blood Bank Management System** built with **P
 ---
 
 ## 📊 System Architecture & Design
+        
 
 ### 1. Entity-Relationship Diagram (ERD)
 The database schema consists of several structured tables (Donors, Blood Units, Lab Tests, Dispatches, Hospitals, etc.) normalized to ensure minimal redundancy and strict referential integrity.
@@ -57,6 +58,15 @@ The front-end is developed using **Python's Tkinter library** and the **python-o
 
 ![THE_UI Diagram](screenshot/THE_UI.png)
 
+
+
+## Normalization
+
+1NF (First Normal Form): All column values are atomic (e.g., no split names or multiple phone numbers in one cell), and there are no repeating groups.
+
+2NF (Second Normal Form): It meets 1NF, and all non-key columns depend entirely on the primary keys (no partial dependencies).
+
+3NF (Third Normal Form): It meets 2NF, and there are no transitive dependencies (all non-key fields depend only on the primary key, directly and non-transitively). For instance, lab test safety results are determined strictly by the Unit_Barcode_ID, not the donor's ID.
 
 ---
 
